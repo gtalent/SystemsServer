@@ -13,7 +13,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 */
-package systems
+package txtblog
 
 import (
 	"encoding/json"
@@ -36,7 +36,6 @@ type PostHeader struct {
 	LastMod int    `json:"last_modified"`
 }
 
-const root = "https://raw.github.com/gtalent/Systems/master/"
 
 var index *Index
 var posts []string

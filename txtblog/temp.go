@@ -13,7 +13,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 */
-package systems
+package txtblog
 
 import (
 	"strconv"
@@ -107,10 +107,10 @@ const post = `
 				color:white;
 			}
 		</style>
-		<title>Systems: {{ title }}</title>
+		<title>` + blogTitle + `: {{ title }}</title>
 	</head>
 	<body>
-		<h1 style="text-align:center">SYSTEMS</h1>
+		<h1 style="text-align:center">` + blogTitle + `</h1>
 		<h3 style="text-align:center">{{ title }}</h3>
 
 		<center>
